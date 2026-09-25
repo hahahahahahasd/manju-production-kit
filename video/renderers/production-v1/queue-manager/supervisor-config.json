@@ -1,0 +1,8 @@
+{
+  "schema": "manju.comfyui-supervisor/v1",
+  "enabled": false,
+  "targetTrackedJobs": 2,
+  "idleAlertSeconds": 120,
+  "intervalSeconds": 5,
+  "batchPaths": []
+}

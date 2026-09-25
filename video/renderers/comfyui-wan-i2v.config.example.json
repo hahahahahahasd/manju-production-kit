@@ -1,0 +1,13 @@
+{
+  "schema": "manju.comfyui-wan-i2v-config/v1",
+  "apiBase": "http://127.0.0.1:6006",
+  "workflowApiPath": "wan-i2v-api.json",
+  "bindings": {
+    "image": { "nodeId": "REPLACE_ME", "input": "image" },
+    "positive": { "nodeId": "REPLACE_ME", "input": "text" },
+    "negative": { "nodeId": "REPLACE_ME", "input": "text" },
+    "duration": { "nodeId": "REPLACE_ME", "input": "num_frames", "unit": "frames", "fps": 16, "frameOffset": 1 },
+    "seed": { "nodeId": "REPLACE_ME", "input": "seed" },
+    "filenamePrefix": { "nodeId": "REPLACE_ME", "input": "filename_prefix" }
+  }
+}
